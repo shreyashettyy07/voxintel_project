@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
 
-df = pd.read_excel("cleaned_dataset.xlsx")
+df = pd.read_excel("final_dataset.xlsx")
 
 X = df["english"]
 y = df["merged_intent"]
